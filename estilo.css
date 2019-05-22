@@ -1,0 +1,28 @@
+.opcao1{
+    /* color: blueviolet; */
+    color: rgb(100,0,0);
+    font-size: 5rem;
+}
+
+.opcao2{
+    color: chocolate;
+}
+
+#boasvindas{
+    padding: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#bv1{
+    float: left;
+}
+
+
+#leftMenu{
+    float: right;
+    padding: 20px;
+    background-color: aqua;
+
+
+}
