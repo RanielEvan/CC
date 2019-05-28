@@ -1,0 +1,13 @@
+#LISTAS
+dados = [str(input('Digite seu nome: ')), int(input('Digite sua idade: '))]
+
+print('Seu nome é',dados[0],'\nSua idade é',dados[1])
+
+#LISTAS2
+numeros = [int(input('Digite um numero: ')), int(input('Digite outro numero: ')), int(input('Digite mais um numero: '))]
+maior = 0
+for x in numeros:
+    if x > maior:
+        maior = x
+        
+print('O maior numero digitado foi', maior)
