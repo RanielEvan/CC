@@ -1,28 +1,56 @@
-.opcao1{
-    /* color: blueviolet; */
-    color: rgb(100,0,0);
+
+/* PROPRIEDADES GERAIS */
+p{
+	font-size: 20px;
+}
+
+/* TELA INICIAL */
+#telainicial{
+    padding: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#logoSite{
+    color: blueviolet;
+    /* color: rgb(100,0,0); */
     font-size: 5rem;
 }
 
-.opcao2{
-    color: chocolate;
-}
-
-#boasvindas{
-    padding: 5%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-}
-
-#bv1{
-    float: left;
+#slogan{
+	position: relative;
+	top: -20px;
+	font-size: 28px;	
 }
 
 
-#leftMenu{
-    float: right;
-    padding: 20px;
-    background-color: aqua;
+/* LADO DIREITO */
+.linkCadastro{
+	text-decoration: none;
+	color: blue;
+}
+
+.linkCadastro:hover {
+	text-decoration: none;
+	color: reds;
+}
 
 
+#linkao {
+	text-decoration: none;
+	font-size: 20px;
+	padding:20px;
+	background-color: skyblue;
+	color: black;
+}
+
+#linkao:hover {
+	padding:20px;
+	background-color: black;
+	color: white;
+}
+
+#linkao:active {
+	padding:18px;
+	background-color: blue;
+	color: white;
 }
