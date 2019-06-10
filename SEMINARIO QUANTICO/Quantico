@@ -1,0 +1,72 @@
+
+(Slide1)
+Os computadores tradicionais nos possibilitaram coisas incriveis até hoje.
+Todos nos estamos cientes do quanto caminhamos e evoluimos no âmbito da computação e da tecnologia. A Internet conectando todo mundo, computação em nuvem, enfim, diversos avanços.
+
+Mas mesmo com todo esse progresso, ainda existem problemas que não podem ser resolvidos por computadores tradicionais.
+Vamos utilizar como exemplo a Otimização, que é quando queremos achar a melhor solução dentro de muitas outras soluções.
+
+(Slide2)
+Imaginemos uma situação onde temos uma mesa com 10 cadeiras e 10 pessoas, onde cada pessoa irá sentar em um lugar na mesa.
+Quantas formas diferentes podemos configurar essas 10 pessoas na mesa?
+
+Teremos 10! Fatorial (aprox. 3.6 milhoes) de configurações diferentes.
+
+Um computador comum teria que testar cada uma dessas opções, para mostrar qual será a melhor solução.
+Já um computador Quantico, consegue te mostrar a melhor solução em apenas 1 ciclo.
+
+Esse é um exemplo bem simples, um computador comum pode resolver isso de forma rapida.
+
+(Slide3)
+Porém, quando se trata de numeros muito grandes, os computadores tradicionais passam um pouco mal... Utilizando um computador quantico, esse tipo de problema pode ser resolvido quase que instantaneamente.
+
+(Slide 4)
+Entrando nas definições:
+Computador quântico é um dispositivo que executa calculos utilizando propriedades da 
+mecanica quantica, como a Sobreposição e Emaranhamento.
+
+(Slide 5)
+Como já vimos durante nosso aprendizado, um computador tradicional opera com conjuntos de bits, onde cada bit pode assumir um valor de 0 ou 1.
+
+(Slide 6)
+Um computador Quântico opera com Qubits (Bits Quânticos), onde cada Qubit pode assumir o valor de ZERO e UM ao mesmo tempo durante o processamento.
+
+Existem 2 efeitos quanticos que são fundamentais
+A primeira é a Sobreposição.
+
+(Slide 7)
+Enquanto bits assumem valores exatos de 0 e 1, os Qubits, são superposições entre 0 e 1, por exemplo:
+1 Qubit pode ser 60%(1) e 40%(0)
+Bem como pode ser 30%(1) e 70%(0)
+Ou 90%(1) e 10%(0).
+1 Qubit possui os 2 estados, em diferentes proporções. 
+2 Qubits possuem 4 estados.
+3 Qubits, 8 estados. Isso é a Sobreposição.
+
+Outro efeito fundamental é o Emaranhamento.
+2 qubits podem se conectar entre si, tal que quando um qubit assume um valor de 0 ou 1, o outro instantaneamente assume o mesmo valor ou o inverso. Os 2 qubits estão conectados independente da distancia entre eles.
+
+Esses efeitos é o que promove a grande capacidade dos computadores quanticos.
+
+(Slide 8)
+O computador quantico, não se trata de uma versão melhorada de um computador tradicional.
+Na verdade, se trata de um novo tipo de dispositivo, uma nova tecnologia, baseada nos conceitos da fisica quântica.
+Possuem um potencial para impactar diversos aspectos de nossas vidas: na internet, segurança, na saúde, etc.
+
+Por exemplo:
+• 90% de todos os dados produzidos na história humana, foram produzidos nos ultimos 2 anos.
+Visto isso, geramos mais dados do que podemos processar e categorizar. Com computadores quanticos, a Análise de Dados se torna exponencialmente mais rápida.
+
+• A pesquisa de novos medicamentos, tem como parte do processo o teste de formulas químicas complexas. Esse processo além de custar muito caro, também demora muito (as vezes anos) devido a combinação e recombinação de elementos para chegar ao resultado esperado. Com computadores quanticos, esse processo se torna mais rapido e menos custoso.
+
+• Um computador quantico pode ser usado para criptografar mensagens, onde hackers
+não conseguiriam violar. Seria necessário quebrar as leis da fisica quantica, para poder hackear. Porém em contrapartida, um hacker pode utilizar um computador quantico, para quebrar criptografias como RSA.
+
+A computação quantica já está sendo utilizada e aprimorada por grandes empresas como a IBM, Google e Nasa.
+
+(Slide 9)
+Porém computadores quanticos estão longe de se tornar viaveis ao uso doméstico. Pra termos uma ideia, o funcionamento dele depende de uma temperatura de 0.15 kelvin (-257º Celsius).
+Maior parte da estrutura de um computador quantico, é só para fins de refrigeração.
+Diferente dos processadores tradicionais, que utilizam silicio, o processador quantico é feito de um metal raro chamado Níobio, que suporta essas temperaturas extremas.
+
+
