@@ -1,0 +1,32 @@
+import tkinter
+import tkinter.messagebox
+
+janela = tkinter.Tk()
+janela.title("Calculadora de Área")
+janela.configure(background="#af43f3")
+janela.geometry('200x400')
+
+baseTxt = tkinter.Label(janela, text="BASE", bg="#af43f3")
+baseTxt.pack()
+base = tkinter.Entry(janela)
+base.pack()
+
+alturaTxt = tkinter.Label(janela, text="ALTURA", bg="#af43f3")
+alturaTxt.pack()
+altura = tkinter.Entry(janela)
+altura.pack()
+
+
+def CalcAreaRet():
+    b = float(base.get())
+    a = float(altura.get())
+    area = b*a
+    tkinter.messagebox.showinfo("Area: ", area)
+
+
+but = tkinter.Button(janela, text="CALCULAR", command=CalcAreaRet)
+but.pack()
+
+janela.mainloop()
+
+
