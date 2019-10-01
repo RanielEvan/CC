@@ -1,7 +1,7 @@
 
 
 main{
-    background-color: white;
+    background-color: gainsboro;
     border-radius: 18px;
     margin: 60px;
     padding: 40px;
@@ -9,13 +9,43 @@ main{
 }
 
 h1{
-    color: black;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#info{
+    opacity: 0;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+
+    position: absolute;
+    bottom: 75px;
+    left: 215px;
+}
+
+#fotao{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left:100px;
+    bottom:100px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+#fotao:hover{
+    left:104px;
+    bottom:96px;
+    box-shadow: 2px 2px 5px grey;
 }
 
 .btn {
     border-radius: 15px;
     background-color: white;
-    border-color: rgb(179, 179, 179);
+    border-color: azure;
     color: black;
     font-size:17px;
     padding: 12px;

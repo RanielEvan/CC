@@ -1,8 +1,3 @@
-<?php 
-
-    
-
-?>
 
 <!DOCTYPE html>
 <head>
@@ -44,20 +39,28 @@
 
     <main>
 
+        <?php
+            session_start();
+            if(session_status() != PHP_SESSION_NONE && !empty($_SESSION["S_USER"])){
+                echo "<h6 style='color: green'>".$_SESSION["Status"]."</h6>";
+                echo "<input hidden='hidden' id='usr' value='".$_SESSION["S_USER"]."'/>".
+                     "<input hidden='hidden' id='pw' value='".$_SESSION["S_PASS"]."'/>";
+            }
+        ?>
+
         <h3>Bem vindo!</h3>
         <i>Entre com seu Usuário e Senha</i>
-        <form id="formin" action="login.php" method="POST">
+        <form id="formin" action="paineldecontrole.php" method="POST">
+
             <input type="text" class="form-control formin" name="username" placeholder="Usuário" />
             <input type="password" class="form-control formin" name="passw" placeholder="Senha" />
             
-           
-
-            <input type="submit" class="btn btn-primary formin subs" value="LOGAR!"/>
+            <button type="button" id="logBt" class="btn btn-primary formin subs">LOGAR!</button>
             
         </form>
 
-        <div class="formin" style="position: relative; top: 20px;">
-            <a href="projeto2_novoUser.php">Novo Usuário</a> | <a href="">Esqueceu a senha?</a>
+        <div class="formin col-md-5" style="position: relative; top: 20px;">
+            <a href="novoUser.php">Novo Usuário</a> | <a href="redefinirsenha.php">Esqueceu a senha?</a>
         </div>
 
     </main>
@@ -69,5 +72,21 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     
 
+    <script>
+        
+        $("#logBt").click(function(){
+
+            var log = ($(":input[name='username']").val() == $("#usr").val());
+            var pw = ($(":input[name='passw']").val() == $("#pw").val())
+            if(log && pw){
+                $("#formin").submit();
+            } else {
+                alert("USUÁRIO OU SENHA INCORRETOS!");
+            }
+
+        })
+
+
+    </script>
 </body>
 </html>
