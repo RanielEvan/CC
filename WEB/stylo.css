@@ -1,0 +1,67 @@
+
+
+main{
+    background-color: white;
+    border-radius: 18px;
+    margin: 60px;
+    padding: 40px;
+    min-height: 500px;
+}
+
+h1{
+    color: black;
+}
+
+.btn {
+    border-radius: 15px;
+    background-color: white;
+    border-color: rgb(179, 179, 179);
+    color: black;
+    font-size:17px;
+    padding: 12px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-style: outset;
+    border-width: 3px;
+}
+
+.btn:hover {
+    background-color: rgb(115, 0, 223);
+    border-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    font-weight:bold;
+    border-style: inset;
+    border-width: 3px;
+}
+
+#listaQuestoes{
+    width: 200px;
+    float: right;
+}
+
+.Questao{
+    margin:10px;
+}
+
+/* BG 'ANIMADO' */
+body {
+	margin: 0;
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(-45deg, rgb(59, 214, 212), rgb(26, 99, 128),#31519b,#100e7c);
+	background-size: 400% 400%;
+	animation: gradientBG 10s ease infinite;
+}
+
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
