@@ -49,7 +49,7 @@
             </div>
 
             <div class="row my-2">
-                <label class="col-sm-2 text-right my-2">Redigite a Senha: </label>
+                <label class="col-sm-3 text-right my-2">Redigite a Senha: </label>
                 <input type="password" required class="form-control col-sm-8" name="passwConf" placeholder="Senha" />
             </div>
 
