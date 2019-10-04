@@ -1,8 +1,3 @@
-<?php 
-
-    
-
-?>
 
 <!DOCTYPE html>
 <head>
@@ -27,10 +22,6 @@
             margin: 10px;
         }
 
-        #formin{
-            
-        }
-
         .subs{
             padding: 10px; padding-left: 20px; padding-right:20px;
             font-weight: bold;
@@ -44,21 +35,30 @@
 
     <main>
 
-        <h3>Bem vindo!</h3>
-        <i>Entre com seu Usuário e Senha</i>
-        <form id="formin" action="login.php" method="POST">
-            <input type="text" class="form-control formin" name="username" placeholder="Usuário" />
-            <input type="password" class="form-control formin" name="passw" placeholder="Senha" />
+        <h3>Cadastro</h3>
+        <form id="cadast" action="_registrar.php" method="POST">
             
+            <div class="row my-2">
+                <label class="col-sm-3 text-right my-2">Usuário: </label>
+                <input type="text" required class="form-control col-sm-8" name="username" placeholder="Usuário" />
+            </div>
            
+            <div class="row my-2">
+                <label class="col-sm-3 text-right my-2">Senha: </label>
+                <input type="password" required class="form-control col-sm-8" name="passw" placeholder="Senha" />
+            </div>
 
-            <input type="submit" class="btn btn-primary formin subs" value="LOGAR!"/>
+            <div class="row my-2">
+                <label class="col-sm-3 text-right my-2">Redigite a Senha: </label>
+                <input type="password" required class="form-control col-sm-8" name="passwConf" placeholder="Senha" />
+            </div>
+
+            <input hidden="hidden" name="Status" value="CRIA"/>
+
+            <button id="btConf" type="button" class="btn btn-success formin">Concluir Cadastro</button>
+            
             
         </form>
-
-        <div class="formin" style="position: relative; top: 20px;">
-            <a href="projeto2_novoUser.php">Novo Usuário</a> | <a href="">Esqueceu a senha?</a>
-        </div>
 
     </main>
 
@@ -68,6 +68,20 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     
+
+    <script>
+        
+        $("#btConf").click(function(){
+
+            if($(":input[name='passw']").val() == $(":input[name='passwConf']").val()){
+                $("#cadast").submit();
+            } else {
+                alert("As senhas não são iguais! Tente novamente")
+            }
+
+        });
+    
+    </script>
 
 </body>
 </html>
