@@ -1,0 +1,11 @@
+main{
+    margin: 3rem;
+}
+
+form{
+    margin-top: 2rem;
+}
+
+textarea{
+    resize: none;
+}
