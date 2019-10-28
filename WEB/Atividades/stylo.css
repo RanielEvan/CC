@@ -9,3 +9,21 @@ form{
 textarea{
     resize: none;
 }
+
+#commentBox {
+    padding: 20px;
+    background-color: gainsboro;
+    border-radius: 10px;
+}
+
+.comment {
+    padding: 10px;
+    background-color: gainsboro;
+    border: solid 1px white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.commentName{
+    font-weight: bold;
+}
