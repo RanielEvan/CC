@@ -1,0 +1,35 @@
+.bg1{
+    overflow: hidden;
+    background-image: url('img/bg_login.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-size: cover; */
+    background-size: 100% 100%;
+
+    color: white;
+}
+
+
+.bg2{
+    overflow: hidden;
+    background-image: url('img/bg_telas.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-size: cover; */
+    background-size: 100% 100%;
+
+    color: white;
+}
+
+
+#statusTxt{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.font1{
+    font-family: 'Russo One', sans-serif;
+}
+.font2{
+    font-family: 'Coda', cursive;
+}
